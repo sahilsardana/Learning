@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('QA') {
       steps {
-        sh 'whoami'
+        sh 'hostname'
       }
     }
 
